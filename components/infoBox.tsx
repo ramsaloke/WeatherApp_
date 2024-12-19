@@ -97,7 +97,7 @@ const InfoBox: React.FC<InfoBoxProps> = ({ dataInfo }) => {
   const SUN_URL = '/weather_images/summer.jpg';
 
   return (
-    <div className="flex items-center justify-center text-center mt-2">
+    <div className="flex items-center justify-center text-center mt-10">
       <div className="w-full ">
         <h1 className="text-2xl font-bold mb-2">
           Weather Info of <i className="text-violet-600">{dataInfo.city}</i>
