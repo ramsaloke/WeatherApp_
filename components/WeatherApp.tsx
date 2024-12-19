@@ -74,7 +74,7 @@ const WeatherApp: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center bg-[#f0f4f8]  min-h-screen overflow-x-auto w-full ">
+    <div className="flex flex-col items-center justify-center bg-[#f0f4f8]  h-screen overflow-x-auto w-full ">
       <div className="w-full max-w-lg px-4 flex-grow ">
         <SearchBox updateData={updateData} />
         <div className="">
