@@ -153,11 +153,11 @@ const SearchBox: React.FC<updateDataProps> = ({ updateData }) => {
   };
 
   return (
-    <main className="flex items-center justify-center mt-3 px-4">
+    <main className="flex items-center justify-center mt-2 px-4">
       <div className="text-center w-full max-w-md">
         <h3 className="text-2xl font-semibold mb-2">Search for the Weather</h3>
 
-        <form onSubmit={handleSubmit} className="mt-3 space-y-4">
+        <form onSubmit={handleSubmit} className=" space-y-4">
           <TextField
             id="city"
             label="Enter City Name"
